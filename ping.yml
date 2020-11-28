@@ -4,5 +4,5 @@
   hosts: all 
 
   tasks:
-  - name: ping
+  - name: ping_ansible
     ping:
