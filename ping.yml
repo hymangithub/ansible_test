@@ -1,11 +1,7 @@
 ---
-- hosts: all
+
+- hosts: note
   gather_facts: false
   tasks:
-<<<<<<< HEAD
-  - name: ping_ansible
-    ping:
-=======
     - ping:
 
->>>>>>> ca52e9fd012528d313635342b96f5a7ff8e7fcbf
